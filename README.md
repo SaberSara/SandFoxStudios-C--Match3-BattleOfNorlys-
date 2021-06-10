@@ -6,6 +6,7 @@ A repo created for Basemark company in term of recruiting purpose (to be deleted
 
 ## About the project (Linkss)
 - ***[GitHub Link](https://github.com/SaberSara/SandFoxStudios-C--Match3-BattleOfNorlys-/)***
+- ***[Youtube Capture video Link](https://www.youtube.com/watch?v=6b3G6QgSlco)***
 - ***[WeTransfer Link]( https://we.tl/t-Dn3haiXV1n)***  k 
 
 
@@ -23,6 +24,7 @@ This is a match3 game 2D, developer in a proprietary engine in C++ (2005), as a 
 - ***Engine Documentalistr (made internakl wiki for us to go to functions and api dscxos)***
 
 ## Hints (test of the projects sdevelopement) : 
+- ***Get on the "BattlOfNorlys_Final_ScreenCapture_Desktop.mp4" to see the game playing in last version ( at release after I go),***
 - ***Input "F1" to show the engine's editor,***
 - ***click on the "Match3_Develop_OpenGL.exe" files generated in the folder "game/" to play the alpha version***
 ***===> in case you have trouble playing uncompressed version folder "Match3_Develop_OpenGL.exe" files, please follow:***
