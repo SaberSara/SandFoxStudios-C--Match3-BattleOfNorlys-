@@ -5,8 +5,8 @@ A repo created for Basemark company in term of recruiting purpose (to be deleted
 (Please **Do not share**, rights prohibited to download on out of **BASEMARK** Company, Finland , for recruitment purpose only)
 
 ## About the project (Linkss)
-[![GitHub Link:](https://github.com/SaberSara/SandFoxStudios-C--Match3-BattleOfNorlys-/)]]
-[![WeTransfer Link:]( )]]  k 
+- ***[GitHub Link](https://github.com/SaberSara/SandFoxStudios-C--Match3-BattleOfNorlys-/)***
+- ***[WeTransfer Link]( https://we.tl/t-Dn3haiXV1n)***  k 
 
 
 ## About the project (game)
@@ -26,14 +26,14 @@ This is a match3 game 2D, developer in a proprietary engine in C++ (2005), as a 
 - ***Input "F1" to show the engine's editor,***
 - ***click on the "Match3_Develop_OpenGL.exe" files generated in the folder "game/" to play the alpha version***
 ***===> in case you have trouble playing uncompressed version folder "Match3_Develop_OpenGL.exe" files, please follow:***
-***===> Delete the "/game/" folder***
+***===> Delete the "game/" folder***
 ***===> Uncompress the files on the "game_compressed_version.zip"***
 ***===> and go to the files generated in the folder "game/" ***
 ***===> click again on the newly "Match3_Develop_OpenGL.exe" files generated in the folder "game/" to play the alpha version***
 - ***Input "F1" to show the engine's editor,***
 - ***You play around and discover the Editor as you wish by moving objects***
 - ***You can Input "F1" again anytime to showoff the engine's editor, and come back toi normal app***
-- ***Get on the "Project screenshots" folder for some timeline/structure/project (the  qualityys of the screenshots is bad)***
+- ***Get on the "Project screenshots" folder for some timeline,structure,project (the  qualityys of the screenshots is bad)***
 - ***Get on the "Game screenshots" folder for some game screenshot from the .exe versio (the  qualityys of the screenshots is bad)***
 
 ### About the gameplay: 
@@ -42,9 +42,9 @@ This is a match3 game 2D, developer in a proprietary engine in C++ (2005), as a 
 ***===> "Main Goal" : Classical Match3 2d game***
 ***===> "Loose conditions" : The gems waves fill your play***
 - ***Controls:***
-***===> "Space" : Enter the menu/game***
-***===> "S,W" : move in the menu/move the player***
-***===> "A,D" : move in the menu/move the player righ and left***
+***===> "Space" : Enter the menu,game***
+***===> "S,W" : move in the menu,move the player***
+***===> "A,D" : move in the menu,move the player righ and left***
 ***===> "S,W" : catch the gem, thow y the player righ and left*** 
 
 ## About the project (developement0interns)
