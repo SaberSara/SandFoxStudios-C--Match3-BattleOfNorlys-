@@ -1,0 +1,21 @@
+{
+  "rewind": {
+    "content": {
+      "font": [
+        {
+          "name": "Lato-Black",
+          "source": "data\fonts\Lato-Black.ttf",
+        },
+        {
+          "name": "Lato-Bold",
+          "source": "data\fonts\Lato-Bold.ttf",
+
+        },
+        {
+          "name": "Lato-Hairline",
+          "source": "data\fonts\Lato-Hairline.ttf",
+        }
+      ]
+    }
+  }
+}

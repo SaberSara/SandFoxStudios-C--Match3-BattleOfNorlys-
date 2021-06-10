@@ -1,0 +1,225 @@
+{
+    "rewind": {
+        "scene": {
+            "version": 1,
+            "name": "level1",
+            "origin": "topleft",
+            "pixelsperunit": 1,
+            "layers": [
+            	 {
+                    "name": "background",
+                    "id": 3,
+                    "active": true,
+                    "visible": true
+                },
+                {
+                    "name": "Layer0",
+                    "id": 2,
+                    "active": true,
+                    "visible": true
+                },
+                {
+                    "name": "gauge",
+                    "id": 1,
+                    "active": true,
+                    "visible": true
+                },
+                {
+                    "name": "Hud",
+                    "id": 0,
+                    "active": true,
+                    "visible": false
+                }
+            ],
+            "objects": [
+                {
+                    "name": "GameOverPanel",
+                    "active": true,
+                    "visible": true,
+                    "position": "982,-160",
+                    "layer": "Hud",
+                    "scale": "2.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "panel",
+                            "active": true,
+                            "source": "GameOver_small",
+                            "currentsource": "GameOver_small",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "center",
+                            "size": "910.000000,406.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+
+                {
+                    "name": "ButtonRestart",
+                    "archetype": "arch_button",
+                    "active": true,
+                    "visible": true,
+                    "position": "597,-80",
+                    "layer": "Hud",
+                    "scale": "2.100000,1.460000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                    ]
+                },
+                {
+                    "name": "ButtonQuit",
+                    "archetype": "arch_button",
+                    "active": true,
+                    "visible": true,
+                    "position": "1132,-80",
+                    "layer": "Hud",
+                    "scale": "1.460000,1.440000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                    ]
+                },
+                {
+                    "name": "ScorePlayer1",
+                    "active": true,
+                    "visible": true,
+                    "position": "602,-230",
+                    "layer": "Hud",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                         {
+                            "type": "transform2d",
+                            "name": "score_player_1_text_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "0.000000,0.000000",
+                            "scale": "1.000000,1.000000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+                        {
+                            "type": "textdrawer",
+                            "name": "text_score",
+                            "active": true,
+                            "parent": "score_player_1_text_transform",
+                            "text": {
+                                "text": "PLAYER 1\nscore\n0",
+                                "size": 50,
+                                "color": "255,0,0,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "font": "defaultfont",
+                            "alignh": "center",
+                            "alignv": "center",
+                            "depthbias": 100,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "ScorePlayer2",
+                    "active": true,
+                    "visible": true,
+                    "position": "1132,-230",
+                    "layer": "Hud",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                        {
+                            "type": "transform2d",
+                            "name": "score_player_2_text_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "0.000000,0.000000",
+                            "scale": "1.000000,1.000000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+                        {
+                            "type": "textdrawer",
+                            "name": "text_score",
+                            "active": true,
+                            "parent": "score_player_2_text_transform",
+                            "text": {
+                                "text": "PLAYER 2\nscore\n0",
+                                "size": 50,
+                                "color": "255,0,0,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "font": "defaultfont",
+                            "alignh": "center",
+                            "alignv": "center",
+                            "depthbias": 200,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+
+				{
+                    "name": "sprite_background",
+                    "active": true,
+                    "visible": true,
+                    "position": "0,0",
+                    "depthorder": 11,
+                    "layer": "background",
+                    "scale": "3.000000,3.600000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+					"component": [
+                        {
+                            "type": "sprite",
+                            "name": "sprite_bg_options",
+                            "active": true,
+                            "source": "Background_A_Night",
+                            "currentsource": "Background_A_Night",
+                            "color": "255,255,255,155",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,9.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "1280.000000,209.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 10,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+            ],
+            "cameras": [
+                {
+                    "name": "MainCamera",
+                    "active": true,
+                    "visible": true,
+                    "position": "0,0",
+                    "component": [
+                        {
+                            "type": "camera",
+                            "name": "default",
+                            "active": true,
+                            "zoom": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

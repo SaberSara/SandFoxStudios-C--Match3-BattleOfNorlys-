@@ -1,0 +1,64 @@
+{
+    "rewind": {
+        "content": {
+            "texture": [
+                {
+                    "name": "header_title_menu_complet",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/header_title_menu_complet",
+                    "mode": "full",
+                    "size": "1280,209"
+                },
+                {
+                    "name": "header_title_options_complet",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/header_title_options_complet",
+                    "mode": "full",
+                    "size": "1280,209"
+                },
+                {
+                    "name": "header_title_pauses_complet",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/header_title_pauses_complet",
+                    "mode": "full",
+                    "size": "1280,209"
+                },
+                {
+                    "name": "header_title_empty",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/header_title_empty",
+                    "mode": "full",
+                    "size": "1280,209"
+                },
+				{
+                    "name": "header_title_historymaps_complet",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/header_title_historymaps_complet",
+                    "mode": "full",
+                    "size": "1280,209"
+                },
+				{
+                    "name": "header_title_map_complet",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/header_title_map_complet",
+                    "mode": "full",
+                    "size": "1280,209"
+                },
+				{
+                    "name": "header_title_maps_complet",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/header_title_maps_complet",
+                    "mode": "full",
+                    "size": "1280,209"
+                },
+				{
+                    "name": "header_title_selection_complet",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/header_title_selection_complet",
+                    "mode": "full",
+                    "size": "1280,209"
+                },
+				{
+                    "name": "header_title_about_us_complet",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/header_title_about_us_complet",
+                    "mode": "full",
+                    "size": "1280,209"
+                }
+				
+				
+            ]
+        }
+    }
+}

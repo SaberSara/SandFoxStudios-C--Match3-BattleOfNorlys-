@@ -1,0 +1,64 @@
+{
+    "rewind": {
+        "content": {
+            "version": 1,
+            "archetypes": [
+                {
+                    "name": "arch_magic_gauge",
+                    "active": true,
+                    "visible": true,
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "sprite_magic_gauge_holder",
+                            "active": true,
+                            "source": "Magic_Gauge_Holder",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        },
+                        {
+                            "type": "transform2d",
+                            "name": "sprite_magic_gauge_progress_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "0.000000,0.000000",
+                            "scale": "1.000000,1.000000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+                        {
+                            "type": "sprite",
+                            "name": "sprite_magic_gauge_progress",
+                            "active": true,
+                            "parent":"sprite_magic_gauge_progress_transform",
+                            "source": "Magic_Gauge_Progress",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "depthbias": 1,
+                            "blendingmode": "normal"
+                        },
+                        
+                        {
+                            "type": "MagicGauge",
+                            "name": "ArchetypeMagicGauge",
+                            "active": true
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,22 @@
+
+#define SAMPLE_COUNT 15
+
+uniform sampler2D u_diffuseTexture;
+
+uniform vec2 SampleOffsets[SAMPLE_COUNT];
+uniform float SampleWeights[SAMPLE_COUNT];
+
+varying vec4 v_texCoords0;
+
+void main(void)
+{
+	vec4 c = vec4(0.0);
+    
+    // Combine a number of weighted image filter taps.
+    for (int i = 0; i < SAMPLE_COUNT; i++)
+    {
+        c += texture2D(u_diffuseTexture, v_texCoords0.xy + SampleOffsets[i]) * SampleWeights[i];
+    }
+    
+	gl_FragColor = c;
+}

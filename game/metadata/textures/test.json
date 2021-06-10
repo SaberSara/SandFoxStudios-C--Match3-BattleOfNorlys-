@@ -1,0 +1,14 @@
+{
+    "rewind": {
+        "content": {
+            "texture": [
+                {
+                    "name": "Bomb_red",
+                    "bitmap": "data/textures/Bomb_red",
+                    "mode": "full",
+                    "size": "256,256"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "rewind": {
+        "content": {
+            "version": 1,
+            "archetypes": [
+                {
+                    "name": "arch_button",
+                    "active": true,
+                    "visible": true,
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                        {
+                            "type": "sprite",
+                            "name": "sprite_button",
+                            "active": true,
+                            "source": "SymbolRestart",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "anchor": "center",
+                            "size": "3.000000,3.000000",
+                            "scale": "1.000000,1.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 100,
+                            "blendingmode": "normal"
+                        },
+
+                        {
+                            "type": "transform2d",
+                            "name": "button_text_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "7.000000,15.000000",
+                            "scale": "1.000000,1.000000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+                        {
+                            "type": "textdrawer",
+                            "name": "text_button",
+                            "active": true,
+                            "parent": "button_text_transform",
+                            "text": {
+                                "text": "Button",
+                                "size": 50,
+                                "color": "255,0,0,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "font": "BEECH___",
+                            "alignh": "center",
+                            "alignv": "center",
+                            "depthbias": 120,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

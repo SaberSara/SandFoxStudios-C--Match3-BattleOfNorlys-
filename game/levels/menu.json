@@ -1,0 +1,554 @@
+{
+    "rewind": {
+        "scene": {
+            "version": 1,
+            "name": "menu",
+            "origin": "topleft",
+            "pixelsperunit": 1,
+            "layers": [
+                {
+                    "name": "layer01",
+                    "id": 0,
+                    "active": true,
+                    "visible": true
+                },
+                {
+                    "name": "layer02",
+                    "id": 1,
+                    "active": true,
+                    "visible": true
+                }
+            ],
+            "objects": [
+                {
+                    "name": "header_title_menu",
+                    "active": true,
+                    "visible": true,
+                    "position": "39,11",
+                    "layer": "layer01",
+                    "scale": "1.430000,1.130000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "header_title_menu_sprite",
+                            "active": true,
+                            "source": "titles_only_menu",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "1280.000000,209.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "button_map",
+                    "active": true,
+                    "visible": true,
+                    "position": "190,329",
+                    "layer": "layer01",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                         {
+                            "type": "transform2d",
+                            "name": "map_button_text_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "130.000000,87.000000",
+                            "scale": "1.500000,1.500000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+                        {
+                            "type": "textdrawer",
+                            "name": "map_button_text",
+                            "active": true,
+                            "parent":"map_button_text_transform",
+                            "text": {
+                                "text": "MAP MODE",
+                                "size": 65,
+                                "color": "255,255,255,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "font": "GourHand",
+                            "alignh": "left",
+                            "alignv": "center",
+                            "depthbias": 1,
+                            "blendingmode": "normal"
+                        },
+                       
+                        {
+                            "type": "sprite",
+                            "name": "map_button_sprite",
+                            "active": true,
+                            "source": "button_empty_blank_desactivated_activated_blank",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "682.000000,161.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "button_story",
+                    "active": true,
+                    "visible": true,
+                    "position": "190,429",
+                    "layer": "layer01",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                        {
+                            "type": "transform2d",
+                            "name": "story_button_text_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "120.000000,87.000000",
+                            "scale": "1.500000,1.500000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+                        {
+                            "type": "textdrawer",
+                            "name": "story_button_text",
+                            "active": true,
+                            "parent":"story_button_text_transform",
+                            "text": {
+                                "text": "STORY MODE",
+                                "size": 65,
+                                "color": "255,255,255,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "font": "GourHand",
+                            "alignh": "left",
+                            "alignv": "center",
+                            "depthbias": 1,
+                            "blendingmode": "normal"
+                        },
+                        {
+                            "type": "sprite",
+                            "name": "story_button_sprite",
+                            "active": true,
+                            "source": "button_empty_blank_desactivated_activated_blank",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "682.000000,161.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "button_simple_match",
+                    "active": true,
+                    "visible": true,
+                    "position": "190,529",
+                    "layer": "layer01",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                        {
+                            "type": "transform2d",
+                            "name": "simple_match_button_text_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "70.000000,87.000000",
+                            "scale": "1.500000,1.500000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+                        {
+                            "type": "textdrawer",
+                            "name": "simple_match_button_text",
+                            "active": true,
+                            "parent":"simple_match_button_text_transform",
+                            "text": {
+                                "text": "SIMPLE MATCH",
+                                "size": 65,
+                                "color": "255,255,255,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "font": "GourHand",
+                            "alignh": "left",
+                            "alignv": "center",
+                            "depthbias": 1,
+                            "blendingmode": "normal"
+                        },
+                        {
+                            "type": "sprite",
+                            "name": "simple_match_button_sprite",
+                            "active": true,
+                            "source": "button_empty_blank_desactivated_activated_blank",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "682.000000,161.000000",
+                            "offset": "50.000000,50.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "button_options",
+                    "active": true,
+                    "visible": true,
+                    "position": "190,629",
+                    "depthorder": 100,
+                    "layer": "layer01",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                        {
+                            "type": "transform2d",
+                            "name": "options_button_text_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "170.000000,87.000000",
+                            "scale": "1.500000,1.500000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+                        {
+                            "type": "textdrawer",
+                            "name": "options_button_text",
+                            "active": true,
+                            "parent":"options_button_text_transform",
+                            "text": {
+                                "text": "OPTIONS",
+                                "size": 65,
+                                "color": "255,255,255,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "font": "GourHand",
+                            "alignh": "left",
+                            "alignv": "center",
+                            "depthbias": 1,
+                            "blendingmode": "normal"
+                        },
+                        {
+                            "type": "sprite",
+                            "name": "options_button_sprite",
+                            "active": true,
+                            "source": "button_empty_blank_desactivated_activated_blank",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "682.000000,161.000000",
+                            "offset": "50.000000,50.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+
+                    ]
+                },
+                {
+                    "name": "button_quit_to_title_menu",
+                    "active": true,
+                    "visible": true,
+                    "position": "90,740",
+                    "layer": "layer01",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                        {
+                            "type": "transform2d",
+                            "name": "quit_to_title_menu_button_text_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "20.000000,87.000000",
+                            "scale": "1.500000,1.500000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+
+                        },
+
+                        {
+                            "type": "textdrawer",
+                            "name": "button_quit_to_menu_title",
+                            "active": true,
+                            "parent":"quit_to_title_menu_button_text_transform",
+                            "text": {
+                                "text": "QUIT TO TITLE MENU",
+                                "size": 50,
+                                "color": "255,255,255,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "font": "GourHand",
+                            "alignh": "left",
+                            "alignv": "center",
+                            "depthbias": 1,
+                            "blendingmode": "normal"
+                        },
+
+                        {
+                            "type": "sprite",
+                            "name": "quit_to_title_menu_button_sprite",
+                            "active": true,
+                            "source": "button_empty_blank_desactivated_activated_blank",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "682.000000,161.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "selection",
+                    "active": true,
+                    "visible": true,
+                    "position": "190,329",
+                    "layer": "layer01",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                        {
+                            "type": "transform2d",
+                            "name": "opening_curly_braces_sprite_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "0.000000,32.000000",
+                            "scale": "-0.300000,0.200000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+
+                        },
+
+                        {
+                            "type": "sprite",
+                            "name": "opening_curly_braces_sprite",
+                            "active": true,
+                            "parent": "opening_curly_braces_sprite_transform",
+                            "source": "curly_braces",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "682.000000,161.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        },
+                        
+                        {
+                            "type": "transform2d",
+                            "name": "closing_curly_braces_sprite_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "610.000000,32.000000",
+                            "scale": "0.300000,0.200000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+
+                        },
+
+                        {
+                            "type": "sprite",
+                            "name": "closing_curly_braces_sprite",
+                            "active": true,
+                            "parent": "closing_curly_braces_sprite_transform",
+                            "source": "curly_braces",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "682.000000,161.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        },
+
+                        {
+                            "type": "sprite",
+                            "name": "button_selected_sprite",
+                            "active": true,
+                            "source": "button_empty_blank_desactivated_activated_blank_selected",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "682.000000,161.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+
+                    ]
+                },
+                {
+                    "name": "characters",
+                    "active": true,
+                    "visible": true,
+                    "position": "1333,409",
+                    "layer": "layer01",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "sprite_characters",
+                            "active": true,
+                            "source": "perso1_1_menu",
+                            "currentsource": "perso1_1_menu",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "380.000000,674.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "background_scrolleringer",
+                    "active": true,
+                    "visible": true,
+                    "position": "0,0",
+                    "layer": "layer02",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "sprite_background_scrolleringer",
+                            "active": true,
+                            "source": "bg_menu_test",
+                            "currentsource": "bg_menu_test",
+                            "color": "255,193,147,137",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "5.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "2560.000000,1440.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "music_backgrounds",
+                    "active": true,
+                    "visible": true,
+                    "position": "0,0",
+                    "layer": "layer01",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "soundplayer",
+                            "name": "sound_gem",
+                            "active": true,
+                            "source": [
+                                {
+                                    "sound": "GemLand-01",
+                                    "volume": 20.0,
+                                    "volumeatmindistance": 0.0,
+                                    "panning": 0.0,
+                                    "pitch": 0.0,
+                                    "mindistance": 0.0,
+                                    "maxdistance": 0.0,
+                                    "loop": true
+                                },
+                                {
+                                    "sound": "GemLand-02",
+                                    "volume": 20.0,
+                                    "volumeatmindistance": 0.0,
+                                    "panning": 0.0,
+                                    "pitch": 0.0,
+                                    "mindistance": 0.0,
+                                    "maxdistance": 0.0,
+                                    "loop": true
+                                },
+                                {
+                                    "sound": "GemLand-03",
+                                    "volume": 0.0,
+                                    "volumeatmindistance": 0.0,
+                                    "panning": 0.0,
+                                    "pitch": 0.0,
+                                    "mindistance": 0.0,
+                                    "maxdistance": 0.0,
+                                    "loop": true
+                                }
+                            ],
+                            "submix": "sound",
+                            "soundgroup": "gems",
+                            "ambient": true
+                        }
+                    ]
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "MainCamera",
+                    "active": true,
+                    "visible": true,
+                    "position": "0,0",
+                    "component": [
+                        {
+                            "type": "camera",
+                            "name": "",
+                            "active": true,
+                            "zoom": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

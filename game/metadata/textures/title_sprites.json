@@ -1,0 +1,50 @@
+{
+    "rewind": {
+        "content": {
+            "texture": [
+                {
+                    "name": "sprite_intro_beta_tests",
+                    "bitmap": "data/textures/sprites_betas_tests/title_screen_betas_tests",
+                    "mode": "full",
+                    "size": "640,244"
+                },
+                {
+                    "name": "sprite_intro_bg_version_2_kuriminal_anime_and_mangas_png",
+                    "bitmap": "data/textures/sprites_betas_tests/sprite_intro_bg_version_2_kuriminal_anime_and_mangas_png",
+                    "mode": "full",
+                    "size": "1847,1220"
+                },
+                {
+                    "name": "sprite_title_only",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/sprite_title_only",
+                    "mode": "full",
+                    "size": "1149,419"
+                },
+                {
+                    "name": "button_ps_activates",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_ps_activates",
+                    "mode": "full",
+                    "size": "867,138"
+                },
+                {
+                    "name": "button_ps_desactives",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_ps_desactives",
+                    "mode": "full",
+                    "size": "867,138"
+                },
+                {
+                    "name": "button_ps_activates_v2",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_ps_activates_v2",
+                    "mode": "full",
+                    "size": "867,138"
+                },
+                {
+                    "name": "button_ps_desactivates_v2",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_ps_desactivates_v2",
+                    "mode": "full",
+                    "size": "867,132"
+                }
+            ]
+        }
+    }
+}

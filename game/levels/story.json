@@ -1,0 +1,211 @@
+{
+    "rewind": {
+        "scene": {
+            "version": 1,
+            "name": "story",
+            "origin": "topleft",
+            "pixelsperunit": 1,
+            "layers": [
+                {
+                    "name": "layer00",
+                    "id": 0,
+                    "active": true,
+                    "visible": true
+                },
+				{
+                    "name": "layer01",
+                    "id": 1,
+                    "active": true,
+                    "visible": true
+                },
+            ],
+            "objects": [
+                {
+                    "name": "header_sprite_title",
+                    "active": true,
+                    "visible": true,
+                    "position": "39,11",
+                    "depthorder": 101,
+                    "layer": "layer00",
+                    "scale": "1.430000,1.130000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                        {
+                            "type": "sprite",
+                            "name": "header_title_menu",
+                            "active": true,
+                            "source": "header_title_historymaps_complet",
+                            "currentsource": "header_title_historymaps_complet",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "1280.000000,209.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "sprite_background_history_maps",
+                    "active": true,
+                    "visible": true,
+                    "position": "-300,0",
+                    "depthorder": 11,
+                    "layer": "layer01",
+                    "scale": "3.400000,2.600000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+					"component": [
+                        {
+                            "type": "sprite",
+                            "name": "sprite_background_history_maps",
+                            "active": true,
+                            "source": "sprite_background_menu_testes_2",
+                            "currentsource": "sprite_background_menu_testes_2",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,9.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "1280.000000,209.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 11,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "title_history_map_background",
+                    "active": true,
+                    "visible": true,
+                    "position": "101,309",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.520000,1.555000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+					"component": [
+
+                        {
+                            "type": "basicsprite",
+                            "name": "title_history_map_background",
+                            "active": true,
+                            "source": "win_small",
+                            "currentsource": "win_small",
+                            "color": "255,111,255,255",
+                            "repeat": "1.520000,1.970000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "1280.000000,209.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 11,
+                            "blendingmode": "normal"
+                        },
+						
+                    ]
+                },
+                {
+                    "name": "history_history_map_background",
+                    "active": true,
+                    "visible": true,
+                    "position": "221,469",
+                    "depthorder": 110,
+                    "layer": "layer00",
+                    "scale": "0.555000,0.510000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+					"component": [
+						{
+							"type": "textdrawer",
+							"name": "history_history_map_background",
+							"active": false,
+							"text": {
+								"text": "in a far far away country , in fantasy , lived in a small kingdom mages that decided one day to do a tournament to decide witch one can go the conquest special for the king , a quest of dangers and obstacles , monsters and enchanted planes to get the quest of the king , but no one can ask about the quest of the king , they have to start a tournament first a show them talents and only then , we and the winner can now the secret mistery quest . that the king will no ever never tall , only to the one who shows him he can trst him , and to only this strongest mage who can made from the competition . six mages from around the world compete to win the privilege of getting the order and the privilee and the medal and the trust of their king , from all above the kingdom , oly the strongest are here , except one ... everyone from them with his own capacty , mootivation and strongness and history that made him wanting this . . . let the battle beging / \ and let us see who is the stongest one that can get the mission crucial . the day has arrived and the crowd gattered in the grand terrace of the castles , the that is the time to fight now . . . will the best really wins ",
+								"size": 47,
+								"color": "255,0,255,205",
+								"opacity": 1.0,
+								"spacing": 0
+							},
+							"font": "GourHand",
+							"alignh": "left",
+							"alignv": "center",
+							"scale": "2.5000000,2.000000",
+							"offset": "219.000000,142.000000",
+							"depthbias": 111,
+							"blendingmode": "normal"
+						},
+                        {
+                            "type": "sprite",
+                            "name": "history_history_map_background",
+                            "active": true,
+                            "source": "text_historty_history_contents",
+                            "currentsource": "text_historty_history_contents",
+                            "color": "0,0,49,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,13.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "1280.000000,209.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 110,
+                            "blendingmode": "normal"
+                        },
+
+                    ]
+                },
+				
+                {
+                    "name": "sprite_history_maps",
+                    "active": true,
+                    "visible": true,
+                    "position": "1299,161",
+                    "layer": "layer01",
+                    "scale": "1.000000,1.180000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "basicsprite",
+                            "name": "sprite_histoory_maps",
+                            "active": true,
+                            "source": "sprite_history_maps_testes_1",
+                            "currentsource": "sprite_history_maps_testes_1",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "1.000000,1.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+
+            ],
+            "cameras": [
+                {
+                    "name": "MainCamera",
+                    "active": true,
+                    "visible": true,
+                    "position": "0,0",
+                    "component": [
+                        {
+                            "type": "camera",
+                            "name": "",
+                            "active": true,
+                            "zoom": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

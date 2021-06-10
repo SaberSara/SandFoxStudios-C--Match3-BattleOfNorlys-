@@ -1,0 +1,86 @@
+
+Rewind Engine revision 1.4.9
+
+------------- System Initialization: -------------
+
+[main] low-level modules creation...
+
+
+--- OS info:
+
+Windows 8 (64-bit) 
+
+
+--- CPU info:
+
+	CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz (GenuineIntel)
+	L1 cache size: 0K
+	L2 cache size: 256K
+	CPU features: FPU MMX SSE SSE2 SSE3 SSSE3 EST HTT 
+	Hyper-Threading Technology: Enabled  
+	Multi-core: Yes 
+	Multi-processor: No
+	System wide availability: 1 physical processors, 6 cores, 12 logical processors
+	Multi-core capabililty : 8 cores per package 
+	HT capability: 2 logical processors per core 
+
+  Not all cores in the system are enabled for this application.
+---
+
+
+--- memory info
+available memory 2097151 mb out of 2097151 mb
+---
+[main] low-level done
+[main] Heaps creation...
+[main] allocated Game heap with a size of 16777216 bytes
+[main] allocated Graphics heap with a size of 83886080 bytes
+[main] allocated Audio heap with a size of 33554432 bytes
+[main] Heaps done
+[main] mid-level modules creation...
+[main] setting up game system and components
+[main] setting up resource manager
+[main] parsing system config...
+[main] mid_level modules done
+[main] initializing platform specific system
+...initialization ok
+
+-------------- Game Main: --------------
+
+[main] game system setup...
+...game is starting!
+iso639=en, iso3166=US
+[main] creating render device
+The frame buffer is complete and supported on this implementation.
+The frame buffer is complete and supported on this implementation.
+The frame buffer is complete and supported on this implementation.
+[main] creating audio device
+[Xaudio2] detected device "Speakers (Realtek(R) Audio)"
+[Xaudio2] detected device "Speakers (2- USBZH11S-ENC)"
+[Xaudio2] detected device "24B1W1 (NVIDIA High Definition Audio)"
+setting up defaults
+[game] loading level "levels\title.json"...
+"intro_sprite_beta_tests"
+"title_sprite_only"
+"press_start_sprite"
+"backgrounds_sprites_only"
+"MainCamera"
+*** preloading level "title" with 5 objects...*** found camera component
+*** preloading objects in camera range...
+done
+[game] ...setup done in 0.003830 seconds
+[sound component] warning: can't find any sound source in component "music_press_start" of "press_start_sprite" ! Component has been deactivated !
+[Match3] "title" loaded successfully
+
+[resource manager - purge] textures still in memory after purging :
+currently processed [0:124] = (null)
+resident texture [0:2] = white
+resident texture [0:1] = defaultfont
+
+----------- System Shutdown: -----------
+
+[main] game cleanup...
+pointer 18FEC4D8 doesn't belong to any heap ! size = 176
+pointer 18FECA98 doesn't belong to any heap ! size = 176
+ok
+[main] engine termination......bye

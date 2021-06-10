@@ -1,0 +1,369 @@
+{
+    "rewind": {
+        "scene": {
+            "version": 1,
+            "name": "selection",
+            "origin": "topleft",
+            "pixelsperunit": 1,
+            "layers": [
+                {
+                    "name": "layer00",
+                    "id": 0,
+                    "active": true,
+                    "visible": true
+                },
+                {
+                    "name": "layer01",
+                    "id": 1,
+                    "active": true,
+                    "visible": true
+                }
+            ],
+            "objects": [
+                {
+                    "name": "sprite_background_selection",
+                    "active": true,
+                    "visible": true,
+                    "position": "0,0",
+                    "depthorder": 1,
+                    "layer": "layer01",
+                    "scale": "2.030000,1.730000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "sprite_background_selection",
+                            "active": true,
+                            "source": "sprite_background_selection",
+                            "currentsource": "sprite_background_selection",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "9.000000,1.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "1024.000000,615.000000",
+                            "scale": "1.000000,1.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "sprite_header_selection",
+                    "active": true,
+                    "visible": true,
+                    "position": "99,33",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.380000,1.120000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "sprite_header_selection",
+                            "active": true,
+                            "source": "header_title_selection_complet",
+                            "currentsource": "header_title_selection_complet",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "1280.000000,209.000000",
+                            "scale": "1.000000,1.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "player_1_selected_character",
+                    "active": true,
+                    "visible": true,
+                    "position": "199,220",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.0000, 1.00000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                         {
+                            "type": "transform2d",
+                            "name": "player_1_selected_character_sprite_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "0.000000,0.000000",
+                            "scale": "2.490000,2.270000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+                        {
+                            "type": "sprite",
+                            "name": "player_1_selected_character_sprite",
+                            "active": true,
+                            "parent":  "player_1_selected_character_sprite_transform",
+                            "source": [
+                                "sprites_characters_selection_c1_n_selected",
+                                "sprites_characters_selection_c2_n_selected",
+								"sprites_characters_selection_c3_n_selected",
+								"sprites_characters_selection_c4_n_selected",
+                            ],
+                            "currentsource": "sprites_characters_selection_c1_n_selected",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "174.000000,132.000000",
+                            "scale": "1.000000,1.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        },
+                        {
+                            "type": "transform2d",
+                            "name": "player_1_selected_character_highlight_sprite_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "90.000000,400.000000",
+                            "scale": "1.000000,1.300000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+                        {
+                            "type": "sprite",
+                            "name": "player_1_selected_character_highlight_sprite",
+                            "active": true,
+                            "parent": "player_1_selected_character_highlight_sprite_transform",
+                            "source": "player1_choice",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "175.000000,133.000000",
+                            "scale": "1.000000,1.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "player_2_selected_character",
+                    "active": true,
+                    "visible": true,
+                    "position": "1099,220",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.00000,1.00000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                         {
+                            "type": "transform2d",
+                            "name": "player_2_selected_character_sprite_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "0.000000,0.000000",
+                            "scale": "2.490000,2.270000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+                        {
+                            "type": "sprite",
+                            "name": "player_2_selected_character_sprite",
+                            "active": true,
+                            "parent":  "player_2_selected_character_sprite_transform",
+                             "source": [
+                                "sprites_characters_selection_c1_n_selected",
+                                "sprites_characters_selection_c2_n_selected",
+								"sprites_characters_selection_c3_n_selected",
+								"sprites_characters_selection_c4_n_selected"
+                            ],
+                            "currentsource": "sprites_characters_selection_c1_n_selected",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "174.000000,132.000000",
+                            "scale": "1.000000,1.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        },
+                        {
+                            "type": "transform2d",
+                            "name": "player_2_selected_character_highlight_sprite_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "90.000000,400.000000",
+                            "scale": "1.000000,1.300000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+                        {
+                            "type": "sprite",
+                            "name": "player_2_selected_character_highlight_sprite",
+                            "active": true,
+                            "parent": "player_2_selected_character_highlight_sprite_transform",
+                            "source": "player2_choice",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "175.000000,133.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "character_1",
+                    "active": true,
+                    "visible": true,
+                    "position": "295,590",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.000000,1.470000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "character_1_sprite",
+                            "active": true,
+                            "source": "sprites_characters_selection_c1_n_unnonselected",
+                            "currentsource": "sprites_characters_selection_c1_n_unnonselected",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "174.000000,132.000000",
+                            "scale": "1.000000,1.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "character_2",
+                    "active": true,
+                    "visible": true,
+                    "position": "595,590",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.000000,1.470000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "character_2_sprite",
+                            "active": true,
+                            "source": "sprites_characters_selection_c2_n_unnonselected",
+                            "currentsource": "sprites_characters_selection_c2_n_unnonselected",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "174.000000,132.000000",
+                            "scale": "1.000000,1.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "character_3",
+                    "active": true,
+                    "visible": true,
+                    "position": "895,590",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.000000,1.470000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "character_3_sprite",
+                            "active": true,
+                            "source": "sprites_characters_selection_c3_n_unnonselected",
+                            "currentsource": "sprites_characters_selection_c3_n_unnonselected",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "174.000000,132.000000",
+                            "scale": "1.000000,1.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "character_4",
+                    "active": true,
+                    "visible": true,
+                    "position": "1195,590",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.000000,1.470000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "character_4_sprite",
+                            "active": true,
+                            "source": "sprites_characters_selection_c4_n_unnonselected",
+                            "currentsource": "sprites_characters_selection_c4_n_unnonselected",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "174.000000,132.000000",
+                            "scale": "1.000000,1.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "MainCamera",
+                    "active": true,
+                    "visible": true,
+                    "position": "0,0",
+                    "component": [
+                        {
+                            "type": "camera",
+                            "name": "",
+                            "active": true,
+                            "zoom": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

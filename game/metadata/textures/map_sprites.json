@@ -1,0 +1,14 @@
+{
+    "rewind": {
+        "content": {
+            "texture": [
+                {
+                    "name": "Background_A_night",
+                    "bitmap": "data/textures/Background_A_night",
+                    "mode": "full",
+                    "size": "650,1170"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "rewind": {
+        "content": {
+            "texture": [
+                
+                {
+                    "name": "Background_A_day",
+                    "bitmap": "data/textures/Background_A_day",
+                    "mode": "full",
+                    "size": "650,1170"
+                }
+            ]
+        }
+    }
+}

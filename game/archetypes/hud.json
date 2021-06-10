@@ -1,0 +1,102 @@
+{
+    "rewind": {
+        "content": {
+            "version": 1,
+            "archetypes": [
+                {
+                    "name": "arch_hud",
+                    "active": true,
+                    "visible": true,
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "textdrawer",
+                            "name": "text_gem",
+                            "active": false,
+                            "scale": "5.000000,5.000000",
+                            "text": {
+                                "text": "Hud",
+                                "size": 5,
+                                "color": "255,0,0,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "alignh": "center",
+                            "alignv": "center",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        },
+                        {
+                            "type": "Hud",
+                            "name": "ArchetypeHud",
+                            "active": true
+                        }
+                    ]
+                },
+
+                {
+                    "name": "arch_lifebar",
+                    "active": true,
+                    "visible": true,
+                    "scale": "0.500000,0.500000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                        {
+                            "type": "sprite",
+                            "name": "sprite_lifebar_holder",
+                            "active": true,
+                            "source": "Lifebar_Holder",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "Center",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        },
+
+                        {
+                            "type": "transform2d",
+                            "name": "sprite_lifebar_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "-150.000000,0.000000",
+                            "scale": "1.000000,1.000000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+                        {
+                            "type": "sprite",
+                            "name": "sprite_lifebar_progress",
+                            "active": true,
+                            "parent": "sprite_lifebar_transform",
+                            "source": "Lifebar_Progress",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "Center",
+                            "depthbias": 1,
+                            "blendingmode": "normal"
+                        },
+
+                        {
+                            "type": "LifeBar",
+                            "name": "ArchetypeLifeBar",
+                            "active": true
+                        }
+
+                    ]
+                }
+            ]
+        }
+    }
+}

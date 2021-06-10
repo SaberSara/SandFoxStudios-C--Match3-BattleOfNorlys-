@@ -1,0 +1,14 @@
+{
+    "rewind": {
+        "content": {
+            "texture": [
+                {
+                    "name": "logo_companys_sfs",
+                    "bitmap": "data/textures/finalized_sprites/logo_companys_sfs",
+                    "mode": "full",
+                    "size": "320,70"
+                }
+            ]
+        }
+    }
+}

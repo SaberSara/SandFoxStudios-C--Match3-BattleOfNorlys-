@@ -1,0 +1,18 @@
+{
+    "rewind": {
+        "content": {
+            "animation": [
+                {
+                    "name": "TorchFlames",
+                    "source": "TorchFlames",
+                    "duration": "400",
+                    "fps": "0",
+                    "frames": "0,1,2,3",
+                    "start": "0",
+                    "play": true,
+                    "loop": true
+                }
+            ]
+        }
+    }
+}

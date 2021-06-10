@@ -1,0 +1,23 @@
+{
+    "rewind": {
+        "content": {
+            "texture": [
+                {
+                    "name": "SymbolRestart",
+                    "bitmap": "data/textures/gui/button_menu_fill_1_hover",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "205,36"
+                },
+
+                {
+                    "name": "SymbolRestartSelected",
+                    "bitmap": "data/textures/gui/button_menu_fill_1_hover",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "205,36"
+                }
+            ]
+        }
+    }
+}

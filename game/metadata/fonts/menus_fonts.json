@@ -1,0 +1,46 @@
+{
+  "rewind": {
+    "content": {
+      "font": [
+        {
+          "name": "ITCKRIST",
+          "source": "data\fonts\ITCKRIST.ttf",
+        },
+        {
+          "name": "Lithos-Pro_28558",
+          "source": "data\fonts\Lithos-Pro_28558.ttf",
+
+        },
+        {
+          "name": "Lithos_Pro_Black_28554",
+          "source": "data\fonts\Lithos_Pro_Black_28554.ttf",
+        },
+        {
+          "name": "Lithos-Pro-Bold_28555",
+          "source": "data\fonts\Lithos-Pro-Bold_28555.ttf",
+        },
+		{
+          "name": "BEECH___",
+          "source": "data\fonts\BEECH___.ttf",
+        },
+		{
+          "name": "UrdType",
+          "source": "data\fonts\UrdType.ttf",
+        },
+		{
+          "name": "Last-King-Quest",
+          "source": "data\fonts\Last-King-Quest.ttf",
+        },
+		{
+          "name": "lobster-two_bold",
+          "source": "data\fonts\lobster-two_bold.ttf",
+        },
+		{
+          "name": "GourHand",
+          "source": "data\fonts\GourHand.ttf",
+        }
+		
+      ]
+    }
+  }
+}

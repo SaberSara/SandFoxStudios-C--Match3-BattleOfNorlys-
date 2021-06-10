@@ -1,0 +1,81 @@
+Settings: {
+	"System": {
+		Application: {
+			GameName = "Game Template",
+			DefaultLanguage = eng-us,
+			Windowed = true,
+			FullScreenWidth = 1920,
+			FullScreenHeight= 1080,
+			WindowedWidth = 1280,
+			WindowedHeight = 720,
+			CanvasWidth = 1920,
+      CanvasHeight = 1080,
+      Origin= topleft
+		},
+		"Inputs": {
+			"ActionMaps": [
+				{
+					"name": "Player",
+					"MoveLeft": "A,PadLeftStickLeft",
+					"MoveRight": "D,PadLeftStickRight",
+					"MoveUp": "W,PadLeftStickUp",
+					"MoveDown": "S,PadLeftStickDown",
+					"ExitGame": "Escape",
+					"AimLeft": "ArrowLeft,PadRightStickLeft",
+					"AimRight": "ArrowRight,PadRightStickRight",
+					"AimUp": "ArrowUp,PadRightStickUp",
+					"AimDown": "ArrowDown,PadRightStickDown",
+          "PlayAgain": "Space, PadA",
+          "ResetMagicGauge":"R"
+				},
+				{
+					"name": "Player2",
+					"MoveLeft": "J",
+					"MoveRight": "L,PadLeftStickRight",
+					"MoveUp": "I,PadLeftStickUp",
+					"MoveDown": "K,PadLeftStickDown",
+					"Fire": "T",
+					"ExitGame": "Escape",
+					"AimLeft": "ArrowLeft,PadRightStickLeft",
+					"AimRight": "ArrowRight,PadRightStickRight",
+					"AimUp": "ArrowUp,PadRightStickUp",
+					"AimDown": "ArrowDown,PadRightStickDown",
+					"Bomb": "Space",
+					"PlayAgain": "P",
+					"ResetMagicGauge":"T"
+				}				
+			]			
+		}
+	},
+	"Renderer": {
+		"VerticalBlank": "true",
+		"Multisample": "0",
+		"Anisotropy": "0"
+	},
+	"GUI": {
+		"UseMouse": "true",
+		"UseKeyboard": "false",
+		"UseActionMap": "true",
+		"UseCursor": "false",
+		"Scale": "100"
+	},
+	"Engine": {
+		"Heaps": {
+			"Default": "0",
+			"Graphics": "0",
+			"Audio": "0",
+			"Game": "0",
+			"Physics": "0",
+			"Script": "0"
+		},
+		"Scene": {
+			"MaxObjects": "1024",
+			"MaxConvexHulls": "0",
+			"MaxTextures": "1024",
+			"MaxAnimations": "1024",
+			"MaxMaterials": "64",
+			"MaxSounds": "64",
+			"MaxFonts": "64"
+		}
+	}
+}

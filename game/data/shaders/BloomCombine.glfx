@@ -1,0 +1,49 @@
+
+
+uniform sampler2D u_diffuseTexture;
+uniform sampler2D u_backgroundTexture;
+
+varying vec4 v_texCoords0;
+
+uniform float BloomIntensity;
+uniform float BaseIntensity;
+
+uniform float BloomSaturation;
+uniform float BaseSaturation;
+
+
+// Helper for modifying the saturation of a color.
+vec4 AdjustSaturation(vec4 color, float saturation)
+{
+    float grey = dot(color.rgb, vec3(0.3, 0.59, 0.11));
+
+    return mix(vec4(grey), color, saturation);
+}
+
+void main(void)
+{
+    // Look up the bloom and original base image colors.
+    vec4 bloom = texture2D(u_diffuseTexture, v_texCoords0.xy);
+    vec4 base = texture2D(u_backgroundTexture, v_texCoords0.zw);
+    
+    // Adjust color saturation and intensity.
+    bloom = AdjustSaturation(bloom, BloomSaturation) * BloomIntensity;
+    base = AdjustSaturation(base, BaseSaturation) * BaseIntensity;
+    
+    // Darken down the base image in areas where there is a lot of bloom,
+    // to prevent things looking excessively burned-out.
+    base *= (1.0 - clamp(bloom, 0.0, 1.0));
+    
+    // Combine the two images.
+    gl_FragColor = base + bloom;
+}
+
+technique BloomCombine
+{
+	postprocess = true;
+	
+    pass p0
+    {
+        FragmentShader = main();
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "rewind": {
+        "content": {
+            "texture": [
+                {
+                    "name": "sprite_background_menu_testes_2",
+                    "bitmap": "data/textures/sprites_betas_tests/sprite_background_menu_testes_2",
+                    "mode": "full",
+                    "size": "720,864"
+                },
+				{
+                    "name": "sprite_history_maps_testes_1",
+                    "bitmap": "data/textures/sprites_betas_tests/sprite_history_maps_testes_1",
+                    "mode": "full",
+                    "size": "720,864"
+                },
+				{
+                    "name": "text_historty_history_contents",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/text_historty_history_contents",
+                    "mode": "full",
+                    "size": "2155,5444"
+                }
+			]
+        }
+    }
+}

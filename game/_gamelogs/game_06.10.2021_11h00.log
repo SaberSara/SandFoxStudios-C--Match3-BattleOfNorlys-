@@ -1,0 +1,280 @@
+
+Rewind Engine revision 1.4.9
+
+------------- System Initialization: -------------
+
+[main] low-level modules creation...
+
+
+--- OS info:
+
+Windows 8 (64-bit) 
+
+
+--- CPU info:
+
+	CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz (GenuineIntel)
+	L1 cache size: 0K
+	L2 cache size: 256K
+	CPU features: FPU MMX SSE SSE2 SSE3 SSSE3 EST HTT 
+	Hyper-Threading Technology: Enabled  
+	Multi-core: Yes 
+	Multi-processor: No
+	System wide availability: 1 physical processors, 6 cores, 12 logical processors
+	Multi-core capabililty : 8 cores per package 
+	HT capability: 2 logical processors per core 
+
+  Not all cores in the system are enabled for this application.
+---
+
+
+--- memory info
+available memory 2097151 mb out of 2097151 mb
+---
+[main] low-level done
+[main] Heaps creation...
+[main] allocated Game heap with a size of 16777216 bytes
+[main] allocated Graphics heap with a size of 83886080 bytes
+[main] allocated Audio heap with a size of 33554432 bytes
+[main] Heaps done
+[main] mid-level modules creation...
+[main] setting up game system and components
+[main] setting up resource manager
+[main] parsing system config...
+[main] mid_level modules done
+[main] initializing platform specific system
+...initialization ok
+
+-------------- Game Main: --------------
+
+[main] game system setup...
+...game is starting!
+iso639=en, iso3166=US
+[main] creating render device
+The frame buffer is complete and supported on this implementation.
+The frame buffer is complete and supported on this implementation.
+The frame buffer is complete and supported on this implementation.
+[main] creating audio device
+[Xaudio2] detected device "Speakers (2- USBZH11S-ENC)"
+[Xaudio2] detected device "Speakers (Realtek(R) Audio)"
+[Xaudio2] detected device "24B1W1 (NVIDIA High Definition Audio)"
+setting up defaults
+[game] loading level "levels\title.json"...
+"intro_sprite_beta_tests"
+"title_sprite_only"
+"press_start_sprite"
+"backgrounds_sprites_only"
+"MainCamera"
+*** preloading level "title" with 5 objects...*** found camera component
+*** preloading objects in camera range...
+done
+[game] ...setup done in -0.001869 seconds
+[sound component] warning: can't find any sound source in component "music_press_start" of "press_start_sprite" ! Component has been deactivated !
+[Match3] "title" loaded successfully
+
+[resource manager - purge] textures still in memory after purging :
+currently processed [0:124] = (null)
+resident texture [0:2] = white
+resident texture [0:1] = defaultfont
+[game] loading level "levels\menu.json"...
+"header_title_menu"
+"button_map"
+"button_story"
+"button_simple_match"
+"button_options"
+"button_quit_to_title_menu"
+"selection"
+"characters"
+"background_scrolleringer"
+"music_backgrounds"
+"MainCamera"
+*** preloading level "menu" with 11 objects...*** found camera component
+*** preloading objects in camera range...
+done
+[game] ...setup done in 0.006607 seconds
+[Match3] "menu" loaded successfully
+
+[resource manager - purge] textures still in memory after purging :
+currently processed [0:127] = (null)
+[0:123] = data\fonts\Lato-Hairline.ttf_050_0001
+[1:119] = button_ps_desactives
+[2:117] = sprite_title_only
+[3:116] = sprite_intro_bg_version_2_kuriminal_anime_and_mangas_png
+[4:113] = TorchFlames
+[5:5] = button_empty_blank_desactivated_activated_blank
+[6:4] = Background_A_day
+resident texture [7:2] = white
+resident texture [7:1] = defaultfont
+[game] loading level "levels\map.json"...
+"header_map_title"
+"background_map"
+"character_avatar"
+"button_quit_to_title_menu"
+"map_point"
+"MainCamera"
+*** preloading level "map" with 6 objects...*** found camera component
+*** preloading objects in camera range...
+done
+[game] ...setup done in 0.004732 seconds
+[Match3] "map" loaded successfully
+
+[resource manager - purge] textures still in memory after purging :
+currently processed [0:127] = (null)
+[0:126] = data\fonts\GourHand.ttf_050_0002
+[1:125] = data\fonts\GourHand.ttf_065_0001
+[2:39] = bg_menu_test
+[3:37] = titles_only_menu
+[4:23] = perso1_1_menu
+[5:7] = curly_braces
+[6:6] = button_empty_blank_desactivated_activated_blank_selected
+[7:5] = button_empty_blank_desactivated_activated_blank
+resident texture [8:2] = white
+resident texture [8:1] = defaultfont
+[game] loading level "levels\level1.json"...
+"GameOverPanel"
+"ButtonRestart"
+[Archetype] "arch_button" not preloaded, loading......done for "arch_button" in 0.011512 seconds
+"ButtonQuit"
+"ScorePlayer1"
+"ScorePlayer2"
+"sprite_background"
+"MainCamera"
+*** preloading level "level1" with 7 objects...*** found camera component
+*** preloading objects in camera range...
+done
+[game] ...setup done in 0.001114 seconds
+[Match3] "level1" loaded successfully
+[Archetype] "arch_player" not preloaded, loading......done for "arch_player" in 0.047561 seconds
+[Archetype] "arch_magic_gauge" not preloaded, loading......done for "arch_magic_gauge" in 0.029128 seconds
+[Archetype] "arch_hud" not preloaded, loading......done for "arch_hud" in 0.013375 seconds
+[Archetype] "arch_lifebar" not preloaded, loading......done for "arch_lifebar" in 0.022642 seconds
+
+[resource manager - purge] textures still in memory after purging :
+currently processed [0:129] = (null)
+[0:126] = data\fonts\GourHand.ttf_050_0002
+[1:76] = player
+[2:65] = Gem_Purple_Diff
+[3:22] = Background_A_night
+[4:16] = header_title_maps_complet
+[5:5] = button_empty_blank_desactivated_activated_blank
+resident texture [6:2] = white
+resident texture [6:1] = defaultfont
+[Archetype] "arch_ball" not preloaded, loading......done for "arch_ball" in 0.051012 seconds
+pointer 14468B80 doesn't belong to any heap ! size = 124
+pointer 144B7A80 doesn't belong to any heap ! size = 44
+pointer 14468C08 doesn't belong to any heap ! size = 124
+pointer 144B75B0 doesn't belong to any heap ! size = 44
+pointer 14468C08 doesn't belong to any heap ! size = 124
+pointer 144B77E0 doesn't belong to any heap ! size = 44
+pointer 14468168 doesn't belong to any heap ! size = 124
+pointer 144B7A80 doesn't belong to any heap ! size = 44
+*** preloading level "title" with 5 objects...*** found camera component
+*** preloading objects in camera range...
+done
+[game] ...setup done in -0.004482 seconds
+[sound component] warning: can't find any sound source in component "music_press_start" of "press_start_sprite" ! Component has been deactivated !
+[Match3] "title" loaded successfully
+
+[resource manager - purge] textures still in memory after purging :
+currently processed [0:129] = (null)
+[0:112] = board
+[1:106] = Lifebar_Progress
+[2:105] = Lifebar_Holder
+[3:103] = Magic_Gauge_Progress
+[4:102] = Magic_Gauge_Holder
+[5:95] = spear_handle_green
+[6:93] = spear_handle
+[7:86] = spear_green
+[8:84] = spear
+[9:82] = player5
+[10:77] = player0
+[11:76] = player
+[12:22] = Background_A_night
+resident texture [13:2] = white
+resident texture [13:1] = defaultfont
+*** preloading level "menu" with 11 objects...*** found camera component
+*** preloading objects in camera range...
+done
+[game] ...setup done in 0.003035 seconds
+[Match3] "menu" loaded successfully
+
+[resource manager - purge] textures still in memory after purging :
+currently processed [0:129] = (null)
+[0:123] = data\fonts\Lato-Hairline.ttf_050_0001
+[1:119] = button_ps_desactives
+[2:117] = sprite_title_only
+[3:116] = sprite_intro_bg_version_2_kuriminal_anime_and_mangas_png
+[4:113] = TorchFlames
+[5:4] = Background_A_day
+resident texture [6:2] = white
+resident texture [6:1] = defaultfont
+[game] loading level "levels\OPTIONS.json"...
+"options_header_title"
+"options_background"
+"button_how_to_play"
+"button_controls"
+"button_parameters"
+"button_about_us"
+"button_quit_to_title_menu"
+"sprite_option"
+"MainCamera"
+*** preloading level "OPTIONS" with 9 objects...*** found camera component
+*** preloading objects in camera range...
+done
+[game] ...setup done in 0.005878 seconds
+[Match3] "OPTIONS" loaded successfully
+
+[resource manager - purge] textures still in memory after purging :
+currently processed [0:129] = (null)
+[0:126] = data\fonts\GourHand.ttf_050_0002
+[1:125] = data\fonts\GourHand.ttf_065_0001
+[2:39] = bg_menu_test
+[3:37] = titles_only_menu
+[4:23] = perso1_1_menu
+[5:7] = curly_braces
+[6:6] = button_empty_blank_desactivated_activated_blank_selected
+[7:5] = button_empty_blank_desactivated_activated_blank
+resident texture [8:2] = white
+resident texture [8:1] = defaultfont
+*** preloading level "title" with 5 objects...*** found camera component
+*** preloading objects in camera range...
+done
+[game] ...setup done in -0.002748 seconds
+[sound component] warning: can't find any sound source in component "music_press_start" of "press_start_sprite" ! Component has been deactivated !
+[Match3] "title" loaded successfully
+
+[resource manager - purge] textures still in memory after purging :
+currently processed [0:129] = (null)
+[0:126] = data\fonts\GourHand.ttf_050_0002
+[1:125] = data\fonts\GourHand.ttf_065_0001
+[2:41] = bg_options_test
+[3:40] = test_perso1_1_2_2_menu_options
+[4:11] = header_title_options_complet
+[5:5] = button_empty_blank_desactivated_activated_blank
+resident texture [6:2] = white
+resident texture [6:1] = defaultfont
+*** preloading level "menu" with 11 objects...*** found camera component
+*** preloading objects in camera range...
+done
+[game] ...setup done in -0.007287 seconds
+[Match3] "menu" loaded successfully
+
+[resource manager - purge] textures still in memory after purging :
+currently processed [0:129] = (null)
+[0:123] = data\fonts\Lato-Hairline.ttf_050_0001
+[1:119] = button_ps_desactives
+[2:117] = sprite_title_only
+[3:116] = sprite_intro_bg_version_2_kuriminal_anime_and_mangas_png
+[4:113] = TorchFlames
+[5:5] = button_empty_blank_desactivated_activated_blank
+[6:4] = Background_A_day
+resident texture [7:2] = white
+resident texture [7:1] = defaultfont
+
+----------- System Shutdown: -----------
+
+[main] game cleanup...
+pointer 18FF3AB8 doesn't belong to any heap ! size = 176
+pointer 18FF3F08 doesn't belong to any heap ! size = 176
+ok
+[main] engine termination......bye

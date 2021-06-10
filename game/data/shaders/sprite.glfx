@@ -1,0 +1,27 @@
+//
+// Sprite glfx  
+//
+// original code : Malek Bengougam
+//
+// (c) Rewind Engine 2010, All rights reserved.
+//
+
+// ___ techniques _____________________________________________________________
+
+technique basic
+{
+	postprocess = true;
+	
+    pass p0
+    {
+        FragmentShader = basic.fs;
+    }
+}
+
+technique sprite
+{
+    pass p0
+    {
+        FragmentShader = sprite.fs;
+    }
+}

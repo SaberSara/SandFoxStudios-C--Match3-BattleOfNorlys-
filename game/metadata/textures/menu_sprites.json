@@ -1,0 +1,111 @@
+{
+    "rewind": {
+        "content": {
+            "texture": [
+                {
+                    "name": "perso1_1_menu",
+                    "bitmap": "data/textures/sprites_betas_tests/perso1_1_menu",
+                    "mode": "full",
+                    "size": "380,674"
+                },
+                {
+                    "name": "button_pg_activates",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_pg_activates",
+                    "mode": "full",
+                    "size": "682,161"
+                },
+                {
+                    "name": "button_pg_desactivates",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_pg_desactivates",
+                    "mode": "full",
+                    "size": "682,161"
+                },
+                {
+                    "name": "button_pv_desactivates",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_pv_desactivates",
+                    "mode": "full",
+                    "size": "682,161"
+                },
+                {
+                    "name": "button_pmp_activates",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_pmp_activates",
+                    "mode": "full",
+                    "size": "682,161"
+                },
+                {
+                    "name": "button_pmp_desactivates",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_pmp_desactivates",
+                    "mode": "full",
+                    "size": "682,161"
+                },
+                {
+                    "name": "button_o_activates",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_o_activates",
+                    "mode": "full",
+                    "size": "682,161"
+                },
+                {
+                    "name": "button_o_desactivates",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_o_desactivates",
+                    "mode": "full",
+                    "size": "682,161"
+                },
+                {
+                    "name": "button_a_activates",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_a_activates",
+                    "mode": "full",
+                    "size": "682,161"
+                },
+                {
+                    "name": "button_a_desactivates",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_a_desactivates",
+                    "mode": "full",
+                    "size": "682,161"
+                },
+                {
+                    "name": "button_qtgt_activates",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_qtgt_activates",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "682,161"
+                },
+                {
+                    "name": "button_qtgt_desactivates",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_qtgt_desactivates",
+                    "mode": "full",
+                    "size": "682,161"
+                },
+                {
+                    "name": "button_q_activates",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_q_activates",
+                    "mode": "full",
+                    "size": "682,161"
+                },
+                {
+                    "name": "button_q_desactivates",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_q_desactivates",
+                    "mode": "full",
+                    "size": "682,161"
+                },
+                {
+                    "name": "titles_only_menu",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/titles_only_menu",
+                    "mode": "full",
+                    "size": "1280,209"
+                },
+                {
+                    "name": "titles_only_menu_v2",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/titles_only_menu_v2",
+                    "mode": "full",
+                    "size": "1280,209"
+                },
+                {
+                    "name": "bg_menu_test",
+                    "bitmap": "data/textures//sprites_betas_tests/bg_menu_test",
+                    "mode": "full",
+                    "size": "2560,1440"
+                }
+            ]
+        }
+    }
+}

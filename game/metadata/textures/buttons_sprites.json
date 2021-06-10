@@ -1,0 +1,32 @@
+{
+    "rewind": {
+        "content": {
+            "texture": [
+                {
+                    "name": "button_empty_blank_desactivated_activated_blank",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_empty_blank_desactivated_activated_blank",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "682,161"
+                },
+
+                {
+                    "name": "button_empty_blank_desactivated_activated_blank_selected",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/button_empty_blank_desactivated_activated_blank_selected",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "682,161"
+                },
+
+                {
+                    "name": "curly_braces",
+                    "bitmap": "data/textures/menues_and_buttons_sprites_tests_made_by_sarasaber/curly_braces",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "128,416"
+                }
+
+            ]
+        }
+    }
+}

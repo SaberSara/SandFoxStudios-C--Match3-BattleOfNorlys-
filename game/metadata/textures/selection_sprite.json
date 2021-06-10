@@ -1,0 +1,140 @@
+{
+    "rewind": {
+        "content": {
+            "texture": [
+                {
+                    "name": "sprite_background_selection",
+                    "bitmap": "data/textures/sprites_betas_tests/sprite_background_selection",
+                    "mode": "full",
+                    "size": "1024,615"
+                },
+				{
+                    "name": "sprites_characters_selection",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection",
+                    "mode": "full",
+                    "size": "700,263"
+                },
+				{
+                    "name": "sprites_characters_selection_c1_n_selected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c1_n_selected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c2_n_selected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c2_n_selected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c3_n_selected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c3_n_selected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c4_n_selected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c4_n_selected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c1_n_selected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c1_n_selected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c5_n_selected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c5_n_selected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c6_n_selected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c6_n_selected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c7_n_selected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c7_n_selected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c8_n_selected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c8_n_selected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c9_n_selected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c9_n_selected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c1_n_unnonselected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c1_n_unnonselected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c2_n_unnonselected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c2_n_unnonselected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c3_n_unnonselected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c3_n_unnonselected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c4_n_unnonselected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c4_n_unnonselected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c1_n_unnonselected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c1_n_unnonselected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c5_n_unnonselected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c5_n_unnonselected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c6_n_unnonselected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c6_n_unnonselected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c7_n_unnonselected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c7_n_unnonselected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c8_n_unnonselected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c8_n_unnonselected",
+                    "mode": "full",
+                    "size": "174,132"
+                },
+				{
+                    "name": "sprites_characters_selection_c9_n_unnonselected",
+                    "bitmap": "data/textures/sprites_betas_tests/sprites_characters_selection_c9_n_unnonselected",
+                    "mode": "full",
+                    "size": "174,132"
+                }
+            ]
+        }
+    }
+}

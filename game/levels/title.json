@@ -1,0 +1,199 @@
+{
+    "rewind": {
+        "scene": {
+            "version": 1,
+            "name": "title",
+            "origin": "topleft",
+            "pixelsperunit": 1,
+            "layers": [
+                {
+                    "name": "layer00",
+                    "id": 0,
+                    "active": true,
+                    "visible": true
+                },
+                {
+                    "name": "layer01",
+                    "id": 1,
+                    "active": true,
+                    "visible": true
+                }
+            ],
+            "objects": [
+                {
+                    "name": "intro_sprite_beta_tests",
+                    "active": true,
+                    "visible": true,
+                    "position": "-70,550",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.100000,0.840000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "intro_sprite_beta_tests",
+                            "active": true,
+                            "source": "sprite_intro_bg_version_2_kuriminal_anime_and_mangas_png",
+                            "currentsource": "sprite_intro_bg_version_2_kuriminal_anime_and_mangas_png",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,1.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "title_sprite_only",
+                    "active": true,
+                    "visible": true,
+                    "position": "390,90",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "textdrawer",
+                            "name": "title_sprite",
+                            "active": true,
+                            "text": {
+                                "text": "",
+                                "size": 110,
+                                "color": "255,150,116,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "font": "defaultfont",
+                            "alignh": "center",
+                            "alignv": "center",
+                            "scale": "1.000000,1.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        },
+                        {
+                            "type": "sprite",
+                            "name": "sprite_title_only",
+                            "active": true,
+                            "source": "sprite_title_only",
+                            "currentsource": "sprite_title_only",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "press_start_sprite",
+                    "active": true,
+                    "visible": true,
+                    "position": "555,430",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "textdrawer",
+                            "name": "press_start",
+                            "active": true,
+                            "text": {
+                                "text": "",
+                                "size": 50,
+                                "color": "255,255,255,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "font": "Lato-Hairline",
+                            "alignh": "center",
+                            "alignv": "center",
+                            "scale": "1.000000,1.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        },
+                        {
+                            "type": "soundplayer",
+                            "name": "music_press_start",
+                            "active": false,
+                            "submix": "sound",
+                            "soundgroup": "sounds_titles",
+                            "ambient": true
+                        },
+                        {
+                            "type": "sprite",
+                            "name": "buttonssss_press_starts",
+                            "active": true,
+                            "source": [
+                                "button_ps_desactives",
+                                "button_ps_activates"
+                            ],
+                            "currentsource": "button_ps_desactives",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "backgrounds_sprites_only",
+                    "active": true,
+                    "visible": true,
+                    "position": "0,0",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "3.270000,1.220000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "backgrounds_sprites_only",
+                            "active": true,
+                            "source": "Background_A_day",
+                            "currentsource": "Background_A_day",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "MainCamera",
+                    "active": true,
+                    "visible": true,
+                    "position": "0,0",
+                    "component": [
+                        {
+                            "type": "camera",
+                            "name": "",
+                            "active": true,
+                            "zoom": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

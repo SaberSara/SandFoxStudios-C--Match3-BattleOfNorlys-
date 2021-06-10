@@ -1,0 +1,225 @@
+{
+    "rewind": {
+        "scene": {
+            "version": 1,
+            "name": "aboutus",
+            "origin": "topleft",
+            "pixelsperunit": 1,
+            "layers": [
+                {
+                    "name": "layer00",
+                    "id": 0,
+                    "active": true,
+                    "visible": true
+                },
+				{
+                    "name": "layer01",
+                    "id": 1,
+                    "active": true,
+                    "visible": true
+                }
+            ],
+            "objects": [
+			{
+                    "name": "header_sprite_title",
+                    "active": true,
+                    "visible": true,
+                    "position": "39,11",
+                    "depthorder": 101,
+                    "layer": "layer00",
+                    "scale": "1.430000,1.130000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                        {
+                            "type": "textdrawer",
+                            "name": "sprite_title_text",
+                            "active": true,
+                            "text": {
+                                "text": " ",
+                                "size": 50,
+                                "color": "255,255,255,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "font": "defaultfont",
+                            "alignh": "center",
+                            "alignv": "center",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        },
+
+                        {
+                            "type": "sprite",
+                            "name": "header_title_about_us",
+                            "active": true,
+                            "source": "header_title_about_us_complet",
+                            "currentsource": "header_title_about_us_complet",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "1280.000000,209.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "sprite_background",
+                    "active": true,
+                    "visible": true,
+                    "position": "0,0",
+                    "depthorder": 11,
+                    "layer": "layer01",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+					"component": [
+                        {
+                            "type": "sprite",
+                            "name": "sprite_bg_options",
+                            "active": true,
+                            "source": "bg_options_test",
+                            "currentsource": "bg_options_test",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "9.000000,9.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "1280.000000,209.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 11,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+
+				{
+                    "name": "sprite_container_background",
+                    "active": true,
+                    "visible": true,
+                    "position": "79,259",
+                    "layer": "layer01",
+                    "scale": "1.430000,1.990000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+						{
+                            "type": "sprite",
+                            "name": "sprite_container_background",
+                            "active": true,
+                            "source": "win_small",
+                            "currentsource": "win_small",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "380.000000,674.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "sprite_container",
+                    "active": true,
+                    "visible": true,
+                    "position": "549,509",
+                    "layer": "layer01",
+                    "scale": "1.520000,1.310000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+						{
+                            "type": "textdrawer",
+                            "name": "sprite_container_text3",
+                            "active": true,
+                            "text": {
+                                "text": " REWIND ENGINE (C) ",
+                                "size": 50,
+                                "color": "255,64,56,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "font": "GourHand",
+                            "alignh": "center",
+                            "alignv": "center",
+                            "scale": "1.999999,2.000000",
+                            "offset": "199.000000,321.000000",
+                            "depthbias": 111,
+                            "blendingmode": "normal"
+                        },
+						{
+                            "type": "sprite",
+                            "name": "sprite_logo_companys_sfs",
+                            "active": true,
+                            "source": "logo_companys_sfs",
+                            "currentsource": "logo_companys_sfs",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "380.000000,674.000000",
+                            "offset": "0.000000,41.000000",
+                            "depthbias": 112,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+				{
+                    "name": "sprite_option",
+                    "active": true,
+                    "visible": true,
+                    "position": "1149,109",
+                    "layer": "layer01",
+                    "scale": "1.000000,1.000000",
+                    "orientation": -15.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "sprite_option",
+                            "active": true,
+                            "source": "test_perso1_1_2_2_menu_options",
+                            "currentsource": "test_perso1_1_2_2_menu_options",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "380.000000,674.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+               
+            ],
+            "cameras": [
+                {
+                    "name": "MainCamera",
+                    "active": true,
+                    "visible": true,
+                    "position": "0,0",
+                    "component": [
+                        {
+                            "type": "camera",
+                            "name": "",
+                            "active": true,
+                            "zoom": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

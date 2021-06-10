@@ -1,0 +1,417 @@
+{
+    "rewind": {
+        "scene": {
+            "version": 1,
+            "name": "options",
+            "origin": "topleft",
+            "pixelsperunit": 1,
+            "layers":  [
+                {
+                    "name": "layer00",
+                    "id": 0,
+                    "active": true,
+                    "visible": true
+                },
+				{
+                    "name": "layer01",
+                    "id": 1,
+                    "active": true,
+                    "visible": true
+                },
+            ],
+            "objects": [
+                {
+                    "name": "options_header_title",
+                    "active": true,
+                    "visible": true,
+                    "position": "39,11",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.430000,1.130000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                        {
+                            "type": "sprite",
+                            "name": "options_header_title_Sprite",
+                            "active": true,
+                            "source": "header_title_options_complet",
+                            "currentsource": "header_title_options_complet",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "1280.000000,209.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "options_background",
+                    "active": true,
+                    "visible": true,
+                    "position": "0,0",
+                    "depthorder": 11,
+                    "layer": "layer01",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+					"component": [
+                        {
+                            "type": "sprite",
+                            "name": "options_background_sprite",
+                            "active": true,
+                            "source": "bg_options_test",
+                            "currentsource": "bg_options_test",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "9.000000,9.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "1280.000000,209.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 11,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+
+                {
+                    "name": "button_how_to_play",
+                    "active": true,
+                    "visible": true,
+                    "position": "190,329",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+					"component": [
+                        
+                        {
+                            "type": "transform2d",
+                            "name": "how_to_play_button_text_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "70.000000,87.000000",
+                            "scale": "1.500000,1.500000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+						{
+							"type": "textdrawer",
+							"name": "button_how_to_play_text",
+							"active": true,
+                            "parent":"how_to_play_button_text_transform",
+							"text": {
+								"text": "HOW TO PLAY",
+								"size": 65,
+								"color": "255,255,255,255",
+								"opacity": 1.0,
+								"spacing": 0
+							},
+							"font": "GourHand",
+							"alignh": "left",
+							"alignv": "center",
+							"depthbias": 1,
+							"blendingmode": "normal"
+						},
+						{
+							"type": "sprite",
+							"name": "button_how_to_play_sprite",
+							"active": true,
+							"source": "button_empty_blank_desactivated_activated_blank",
+							"currentsource": "",
+							"color": "255,255,255,255",
+							"repeat": "1.000000,1.000000",
+							"scrollspeed": "0.000000,0.000000",
+							"material": "sprite",
+							"anchor": "topleft",
+							"depthbias": 0,
+							"blendingmode": "normal"
+						},
+					]
+                },
+                {
+                    "name": "button_controls",
+                    "active": true,
+                    "visible": true,
+                    "position": "190,429",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+					"component": [
+
+                         {
+                            "type": "transform2d",
+                            "name": "controls_button_text_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "140.000000,87.000000",
+                            "scale": "1.500000,1.500000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+						{
+							"type": "textdrawer",
+							"name": "controls_button_text",
+							"active": true,
+                            "parent":"controls_button_text_transform",
+							"text": {
+								"text": "CONTROLS",
+								"size": 65,
+								"color": "255,255,255,255",
+								"opacity": 1.0,
+								"spacing": 0
+							},
+							"font": "GourHand",
+							"alignh": "left",
+							"alignv": "center",
+							"depthbias": 1,
+							"blendingmode": "normal"
+						},
+
+						{
+							"type": "sprite",
+							"name": "controls_button_sprite",
+							"active": true,
+							"source": "button_empty_blank_desactivated_activated_blank",
+							"currentsource": "",
+							"color": "255,255,255,255",
+							"repeat": "1.000000,1.000000",
+							"scrollspeed": "0.000000,0.000000",
+							"material": "sprite",
+							"anchor": "topleft",
+							"depthbias": 0,
+							"blendingmode": "normal"
+						}
+					]
+                },
+                {
+                    "name": "button_parameters",
+                    "active": true,
+                    "visible": true,
+                    "position": "190.000000,529.000000",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+					"component": [
+
+                        {
+                            "type": "transform2d",
+                            "name": "parameters_button_text_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "70.000000,87.000000",
+                            "scale": "1.500000,1.500000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+						{
+							"type": "textdrawer",
+							"name": "parameters_button_text",
+							"active": true,
+                            "parent":"parameters_button_text_transform",
+							"text": {
+								"text": "PARAMETERS",
+								"size": 65,
+								"color": "255,255,255,255",
+								"opacity": 1.0,
+								"spacing": 0
+							},
+							"font": "GourHand",
+							"alignh": "left",
+							"alignv": "center",
+							"depthbias": 1,
+							"blendingmode": "normal"
+						},
+						{
+							"type": "sprite",
+							"name": "parameters_button_sprite",
+							"active": true,
+							"source": "button_empty_blank_desactivated_activated_blank",
+							"currentsource": "",
+							"color": "255,255,255,255",
+							"repeat": "1.000000,1.000000",
+							"scrollspeed": "0.000000,0.000000",
+							"material": "sprite",
+							"anchor": "topleft",
+							"depthbias": 0,
+							"blendingmode": "normal"
+						},
+					]
+                },
+
+                 {
+                    "name": "button_about_us",
+                    "active": true,
+                    "visible": true,
+                    "position": "190.000000,629.000000",
+                    "depthorder": 100,
+                    "layer": "layer00",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                        {
+                            "type": "transform2d",
+                            "name": "about_us_button_text_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "100.000000,87.000000",
+                            "scale": "1.500000,1.500000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+                        {
+                            "type": "textdrawer",
+                            "name": "about_us_button_text",
+                            "active": true,
+                            "parent":"about_us_button_text_transform",
+                            "text": {
+                                "text": "ABOUT US",
+                                "size": 65,
+                                "color": "255,255,255,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "font": "GourHand",
+                            "alignh": "left",
+                            "alignv": "center",
+                            "depthbias": 1,
+                            "blendingmode": "normal"
+                        },
+                        {
+                            "type": "sprite",
+                            "name": "about_us_button_sprite",
+                            "active": true,
+                            "source": "button_empty_blank_desactivated_activated_blank",
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        },
+                    ]
+                },
+				 {
+                    "name": "button_quit_to_title_menu",
+                    "active": true,
+                    "visible": true,
+                    "position": "90,740",
+                    "layer": "layer00",
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                        {
+                            "type": "transform2d",
+                            "name": "quit_to_title_menu_button_text_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "20.000000,87.000000",
+                            "scale": "1.500000,1.500000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+                        {
+                            "type": "textdrawer",
+                            "name": "button_quit_to_menu_title",
+                            "active": true,
+                            "parent":"quit_to_title_menu_button_text_transform",
+                            "text": {
+                                "text": "QUIT TO TITLE MENU",
+                                "size": 50,
+                                "color": "255,255,255,255",
+                                "opacity": 1.0,
+                                "spacing": 0
+                            },
+                            "font": "GourHand",
+                            "alignh": "left",
+                            "alignv": "center",
+                            "depthbias": 1,
+                            "blendingmode": "normal"
+                        },
+                        {
+                            "type": "sprite",
+                            "name": "quit_to_title_menu_button_text",
+                            "active": true,
+                            "source": "button_empty_blank_desactivated_activated_blank",
+                            "currentsource": "button_empty_blank_desactivated_activated_blank",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "682.000000,161.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "sprite_option",
+                    "active": true,
+                    "visible": true,
+                    "position": "1149,109",
+                    "layer": "layer01",
+                    "scale": "1.000000,1.000000",
+                    "orientation": -15.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "sprite",
+                            "name": "sprite_option",
+                            "active": true,
+                            "source": "test_perso1_1_2_2_menu_options",
+                            "currentsource": "test_perso1_1_2_2_menu_options",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "size": "380.000000,674.000000",
+                            "offset": "0.000000,0.000000",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "MainCamera",
+                    "active": true,
+                    "visible": true,
+                    "position": "0,0",
+                    "component": [
+                        {
+                            "type": "camera",
+                            "name": "",
+                            "active": true,
+                            "zoom": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

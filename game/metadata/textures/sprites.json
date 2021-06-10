@@ -1,0 +1,406 @@
+{
+    "rewind": {
+        "content": {
+            "texture": [
+                {
+                    "name": "Gem_Orange",
+                    "bitmap": "data/textures/Gem_Orange",
+                    "mode": "full",
+                    "size": "256,256"
+                },
+                {
+                    "name": "Gem_Blue",
+                    "bitmap": "data/textures/Gem_Blue",
+                    "mode": "full",
+                    "size": "256,256"
+                },
+                {
+                    "name": "Gem_Green",
+                    "bitmap": "data/textures/Gem_Green",
+                    "mode": "full",
+                    "size": "256,256"
+                },
+                {
+                    "name": "Gem_Purple_Diff",
+                    "bitmap": "data/textures/Gem_Purple_Diff",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "256,256"
+                },
+                {
+                    "name": "Gem_Red",
+                    "bitmap": "data/textures/Gem_Red",
+                    "mode": "full",
+                    "size": "256,256"
+                },
+                {
+                    "name": "Gem_Teal",
+                    "bitmap": "data/textures/Gem_Teal",
+                    "mode": "full",
+                    "size": "256,256"
+                },
+                {
+                    "name": "Gem_White",
+                    "bitmap": "data/textures/Gem_White",
+                    "mode": "full",
+                    "size": "256,256"
+                },
+                {
+                    "name": "Gem_Yellow",
+                    "bitmap": "data/textures/Gem_Yellow",
+                    "mode": "full",
+                    "size": "256,256"
+                },
+                {
+                    "name": "Gem_Orange_Magic",
+                    "bitmap": "data/textures/Gem_Orange_Magic",
+                    "mode": "full",
+                    "size": "256,256"
+                },
+                {
+                    "name": "Gem_Blue_Magic",
+                    "bitmap": "data/textures/Gem_Blue_Magic",
+                    "mode": "full",
+                    "size": "256,256"
+                },
+                {
+                    "name": "Gem_Green_Magic",
+                    "bitmap": "data/textures/Gem_Green_Magic",
+                    "mode": "full",
+                    "size": "256,256"
+                },
+                {
+                    "name": "Gem_Purple_Diff_Magic",
+                    "bitmap": "data/textures/Gem_Purple_Diff_Magic",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "256,256"
+                },
+                {
+                    "name": "GameOver_small",
+                    "bitmap": "data/textures/GameOver_small",
+                    "mode": "full",
+                    "size": "910,406"
+                },
+                {
+                    "name": "win_small",
+                    "bitmap": "data/textures/win_small",
+                    "mode": "full",
+                    "size": "914,406"
+                },
+
+                {
+                    "name": "player",
+                    "bitmap": "data/textures/player",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "128,128"
+                },
+
+                {
+                    "name": "player0",
+                    "bitmap": "data/textures/player0",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "128,128"
+                },
+
+                {
+                    "name": "player1",
+                    "bitmap": "data/textures/player1",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "128,128"
+                },
+
+                {
+                    "name": "player2",
+                    "bitmap": "data/textures/player2",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "128,128"
+                },
+
+                {
+                    "name": "player3",
+                    "bitmap": "data/textures/player3",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "128,128"
+                },
+
+                {
+                    "name": "player4",
+                    "bitmap": "data/textures/player4",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "128,128"
+                },
+
+                {
+                    "name": "player5",
+                    "bitmap": "data/textures/player4",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "128,128"
+                },
+
+
+                 {
+                    "name": "avatar",
+                    "bitmap": "data/textures/avatar",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "111,86"
+                },
+
+
+                {
+                    "name": "spear",
+                    "bitmap": "data/textures/spear",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "32,64"
+                },
+                 {
+                    "name": "spear_blue",
+                    "bitmap": "data/textures/spear_blue",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "32,64"
+                },
+                {
+                    "name": "spear_green",
+                    "bitmap": "data/textures/spear_green",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "32,64"
+                },
+
+                {
+                    "name": "spear_purple",
+                    "bitmap": "data/textures/spear_purple",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "32,64"
+                },
+
+                {
+                    "name": "spear_orange",
+                    "bitmap": "data/textures/spear_orange",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "32,64"
+                },
+
+                {
+                    "name": "spear_blue_magic",
+                    "bitmap": "data/textures/spear_blue_magic",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "32,64"
+                },
+                {
+                    "name": "spear_green_magic",
+                    "bitmap": "data/textures/spear_green_magic",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "32,64"
+                },
+
+                {
+                    "name": "spear_purple_magic",
+                    "bitmap": "data/textures/spear_purple_magic",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "32,64"
+                },
+
+                {
+                    "name": "spear_orange_magic",
+                    "bitmap": "data/textures/spear_orange_magic",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "32,64"
+                },
+
+
+
+                {
+                    "name": "spear_handle",
+                    "bitmap": "data/textures/spear_handle",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "16,46",
+                    "addressu": "clamp",
+                    "addressv": "repeat"
+
+                },
+                {
+                    "name": "spear_handle_blue",
+                    "bitmap": "data/textures/spear_handle_blue",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "16,46",
+                    "addressu": "clamp",
+                    "addressv": "repeat"
+                },
+                {
+                    "name": "spear_handle_green",
+                    "bitmap": "data/textures/spear_handle_green",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "16,46",
+                    "addressu": "clamp",
+                    "addressv": "repeat"
+                },
+                {
+                    "name": "spear_handle_purple",
+                    "bitmap": "data/textures/spear_handle_purple",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "16,46",
+                    "addressu": "clamp",
+                    "addressv": "repeat"
+                },
+                {
+                    "name": "spear_handle_orange",
+                    "bitmap": "data/textures/spear_handle_orange",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "16,46",
+                    "addressu": "clamp",
+                    "addressv": "repeat"
+                },
+
+                {
+                    "name": "spear_handle_blue_magic",
+                    "bitmap": "data/textures/spear_handle_blue_magic",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "16,46",
+                    "addressu": "clamp",
+                    "addressv": "repeat"
+                },
+                {
+                    "name": "spear_handle_green_magic",
+                    "bitmap": "data/textures/spear_handle_green_magic",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "16,46",
+                    "addressu": "clamp",
+                    "addressv": "repeat"
+                },
+                {
+                    "name": "spear_handle_purple_magic",
+                    "bitmap": "data/textures/spear_handle_purple_magic",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "16,46",
+                    "addressu": "clamp",
+                    "addressv": "repeat"
+                },
+                {
+                    "name": "spear_handle_orange_magic",
+                    "bitmap": "data/textures/spear_handle_orange_magic",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "16,46",
+                    "addressu": "clamp",
+                    "addressv": "repeat"
+                },
+
+                {
+                    "name": "Magic_Gauge_Holder",
+                    "bitmap": "data/textures/Magic_Gauge_Holder",
+                    "mode": "full",
+                    "size": "76,320"
+                },
+                {
+                    "name": "Magic_Gauge_Progress",
+                    "bitmap": "data/textures/Magic_Gauge_Progress",
+                    "mode": "full",
+                    "size": "34,290"
+                },
+                {
+                    "name": "Magic_Gauge_Pointer",
+                    "bitmap": "data/textures/Magic_Gauge_Pointer",
+                    "mode": "full",
+                    "size": "34,10"
+                },
+
+                {
+                    "name": "Lifebar_Holder",
+                    "bitmap": "data/textures/Lifebar_Holder",
+                    "mode": "full",
+                    "size": "300,40"
+                },
+                {
+                    "name": "Lifebar_Progress",
+                    "bitmap": "data/textures/Lifebar_Progress",
+                    "mode": "full",
+                    "size": "300,40"
+                },
+
+
+                {
+                    "name": "start",
+                    "bitmap": "data/textures/start",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "515,149"
+                },
+                {
+                    "name": "win",
+                    "bitmap": "data/textures/win",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "426,240"
+                },
+                {
+                    "name": "lose",
+                    "bitmap": "data/textures/lose",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "407,238"
+                },
+                {
+                    "name": "player1_choice",
+                    "bitmap": "data/textures/player1_choice",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "175,133"
+                },
+                {
+                    "name": "player2_choice",
+                    "bitmap": "data/textures/player2_choice",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "175,133"
+                },
+                {
+                    "name": "board",
+                    "bitmap": "data/textures/board",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "616,1056"
+                },
+                {
+                  "name": "TorchFlames",
+                  "bitmap": "data/textures/T_Torch_Flames",
+                  "mode": "regular",
+                  "fromatlas": "false",
+                  "size": "128,128",
+                  "cell": "64,64",
+                  "offset": "0,0",
+                  "hotspot": "0,0",
+                  "addressu": "clamp",
+                  "addressv": "clamp",
+                  "minfilter": "linear",
+                  "magfilter": "linear"
+                }
+
+            ]
+        }
+    }
+}

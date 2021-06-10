@@ -1,0 +1,20 @@
+{
+    "rewind": {
+        "content": {
+            "sound": [
+                {
+                    "name": "GemLand-01",
+                    "source": "data/audio/Gem_Land01"
+                },
+                {
+                    "name": "GemLand-02",
+                    "source": "data/audio/Gem_Land02"
+                },
+                {
+                    "name": "GemLand-03",
+                    "source": "data/audio/Gem_Land03"
+                }
+            ]
+        }
+    }
+}

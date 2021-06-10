@@ -1,0 +1,167 @@
+{
+    "rewind": {
+        "content": {
+            "version": 1,
+            "archetypes": [
+                {
+                    "name": "arch_player",
+                    "active": true,
+                    "visible": true,
+                    "scale": "1.000000,1.000000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+                        {
+                            "type": "player",
+                            "name": "ArchetypePlayer",
+                            "active": true
+                        },
+                        {
+                            "type": "transform2d",
+                            "name": "sprite_spear_handle_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "0.000000,0.000000",
+                            "scale": "1.000000,1.000000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+                        {
+                            "type": "sprite",
+                            "name": "sprite_spear_handle",
+                            "active": true,
+                            "parent": "sprite_spear_handle_transform",
+                            "source": [
+                                "spear_handle",
+                                "spear_handle_blue",
+                                "spear_handle_green",
+                                "spear_handle_purple",
+                                "spear_handle_orange",
+                                "spear_handle_blue_magic",
+                                "spear_handle_green_magic",
+                                "spear_handle_purple_magic",
+                                "spear_handle_orange_magic"
+                            ],
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,15.000000",
+                            "scrollspeed": "0.000000,-50.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        },
+
+                        {
+                            "type": "sprite",
+                            "name": "sprite_player",
+                            "active": true,
+                            "parent": "",
+                            "source": [
+                                "player",
+                                "player1",
+                                "player2",
+                                "player3",
+                                "player4",
+                                "player5"
+                            ],
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "Center",
+                            "depthbias": 2,
+                            "blendingmode": "normal"
+                        },
+                        {
+                            "type": "transform2d",
+                            "name": "sprite_spear_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "0.000000,0.000000",
+                            "scale": "1.000000,1.000000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+                        {
+                            "type": "sprite",
+                            "name": "sprite_spear",
+                            "active": true,
+                            "parent": "sprite_spear_transform",
+                            "source": [
+                                "spear",
+                                "spear_blue",
+                                "spear_green",
+                                "spear_purple",
+                                "spear_orange",
+                                "spear_blue_magic",
+                                "spear_green_magic",
+                                "spear_purple_magic",
+                                "spear_orange_magic"
+                            ],
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "topleft",
+                            "depthbias": 1,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                },
+                {
+                    "name": "arch_ball",
+                    "active": true,
+                    "visible": true,
+                    "scale": "0.500000,0.500000",
+                    "orientation": 0.0,
+                    "rotationspeed": 0.0,
+                    "component": [
+
+                        {
+                            "type": "transform2d",
+                            "name": "sprite_ball_transform",
+                            "active": true,
+                            "parent": "",
+                            "offset": "0.000000,0.000000",
+                            "scale": "1.000000,1.000000",
+                            "orientation": 0.0,
+                            "rotationspeed": 0.0
+                        },
+
+                        {
+                            "type": "sprite",
+                            "name": "sprite_ball",
+                            "active": true,
+                            "parent": "sprite_ball_transform",
+                            "source": [
+                                "Gem_Blue",
+                                "Gem_Green",
+                                "Gem_Purple_Diff",
+                                "Gem_Orange",
+                                "Gem_Blue_Magic",
+                                "Gem_Green_Magic",
+                                "Gem_Purple_Diff_Magic",
+                                "Gem_Orange_Magic",
+                                "Gem_Red",
+                                "Gem_Teal",
+                                "Gem_White",
+                                "Gem_Yellow"
+                            ],
+                            "currentsource": "",
+                            "color": "255,255,255,255",
+                            "repeat": "1.000000,1.000000",
+                            "scrollspeed": "0.000000,0.000000",
+                            "material": "sprite",
+                            "anchor": "Center",
+                            "depthbias": 0,
+                            "blendingmode": "normal"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

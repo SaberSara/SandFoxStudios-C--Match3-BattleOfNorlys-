@@ -1,0 +1,22 @@
+{
+    "rewind": {
+        "content": {
+            "texture": [
+                {
+                    "name": "test_perso1_1_2_2_menu_options",
+                    "bitmap": "data/textures/sprites_betas_tests/test_perso1_1_2_2_menu_options",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "980,819"
+                },
+                {
+                    "name": "bg_options_test",
+                    "bitmap": "data/textures/sprites_betas_tests/bg_options_test",
+                    "fromAtlas": true,
+                    "mode": "full",
+                    "size": "2560,1600"
+                }
+            ]
+        }
+    }
+}
