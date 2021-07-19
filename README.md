@@ -1,7 +1,7 @@
 # SandFoxStudios C++ Game Project Match3-BattleOfNorlys-
 
 ## IMPORTANT (download and usages rights)
-A repo created for **"BASEMARK"** company in term of recruiting purpose (to be deleted on the 18-06-2021)
+A repo created for **"BASEMARK"** company in term of recruiting purpose (to be deleted on the 18-12-2021)
 (Please **Do not share**, rights prohibited to download on out of **"BASEMARK"** Company, Finland , for recruitment purpose only)
 
 ## About the project (Linkss)
